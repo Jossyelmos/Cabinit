@@ -15,150 +15,67 @@ const Comp1 = () => {
           <h1 className='all-center text-bright large'>TRUSTED LEADER IN <span className='text-warning'>CABINET DESIGN.</span></h1>
           
           <div className='carousel mag'>
-              <Carousel
-                  autoFocus={false}
-                  width={'85%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
+              <div>
                     <div>
                         <img src={image1} alt='img'/>
                     </div>
-                </Carousel>
-              <Carousel
-                  className='carousel'
-                  autoFocus={false}
-                  width={'97%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
-                        <div>
-                            <img src={image2} alt='img'/>
-                        </div>
-                </Carousel>
-              <Carousel
-                  className='carousel'
-                  autoFocus={false}
-                  width={'95%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
-                        <div>
-                            <img src={image3} alt='img'/>
-                        </div>
-                </Carousel>
-              <Carousel
-                  className='carousel'
-                  autoFocus={false}
-                  width={'95%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
-                        <div>
-                            <img src={image6} alt='img'/>
-                        </div>
-                </Carousel>
-              <Carousel
-                  className='carousel'
-                  autoFocus={false}
-                  width={'95%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
-                        <div>
-                            <img src={image5} alt='img'/>
-                        </div>
-                </Carousel>
-              <Carousel
-                //   className='carousel'
-                  autoFocus={false}
-                  width={'95%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
-                        <div>
-                            <img src={image6} alt='img'/>
-                        </div>
-                </Carousel>
+                </div>
+              <div>
+                    <div>
+                        <img src={image2} alt='img'/>
+                    </div>
+                </div>
+              <div>
+                    <div>
+                        <img src={image3} alt='img'/>
+                    </div>
+                </div>
+              <div>
+                    <div>
+                        <img src={image6} alt='img'/>
+                    </div>
+                </div>
+              <div>
+                    <div>
+                        <img src={image5} alt='img'/>
+                    </div>
+                </div>
+              <div>
+                    <div>
+                        <img src={image6} alt='img'/>
+                    </div>
+                </div>
           </div>
           <div className='carousel-container'>
-              <Carousel
-                  autoFocus={false}
-                  width={'80%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-              >
+              <div>
                     <div>
                         <img src={image7} alt='img'/>
                     </div>
-              </Carousel>
-              <div className='mid-carousel'>
-                <Carousel
-                    autoFocus={false}
-                    width={'100%'}
-                    showThumbs={false}
-                    showArrows={false}
-                    showIndicators={false}
-                    showStatus={false}
-                >
-                            <div>
-                        <img src={image1} alt='img'/>
-                            </div>
-                    </Carousel>
-                <Carousel
-                    autoFocus={false}
-                    width={'100%'}
-                    showThumbs={false}
-                    showArrows={false}
-                    showIndicators={false}
-                    showStatus={false}
-                >
-                            <div>
-                                <img src={image4} alt='img'/>
-                            </div>
-                    </Carousel>
-                <Carousel
-                    autoFocus={false}
-                    width={'100%'}
-                    showThumbs={false}
-                    showArrows={false}
-                    showIndicators={false}
-                    showStatus={false}
-                    className='remove'
-                >
-                            <div>
-                                <img src={image3} alt='img'/>
-                            </div>
-                    </Carousel>
               </div>
-              <Carousel
-                  autoFocus={false}
-                  width={'85%'}
-                  showThumbs={false}
-                  showArrows={false}
-                  showIndicators={false}
-                  showStatus={false}
-                  
-              >
+                <div className='mid-carousel'>
+                    <div>
                         <div>
-                            <img src={image5} alt='img' style={{ position: 'relative', left: '-35px'}}/>
+                            <img src={image1} alt='img'/>
                         </div>
-                </Carousel>
-          </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src={image4} alt='img'/>
+                        </div>
+                    </div>
+                    <div className='remove'>
+                        <div>
+                            <img src={image3} alt='img'/>
+                        </div>
+                    </div>
+                    </div>
+              <div>
+                <div>
+                    <img src={image5} alt='img'/>
+                </div>
+              </div>
+            
+        </div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const Comp2 = () => {
     <div className='comp2'>
           <img src={qoute} alt='' />
           <div className='comp2-container'>
-              <Carousel showStatus={false}>
+              <Carousel showStatus={false} showThumbs={false}>
                 <div className='comp2-div text-left'>
                     <p className="">
                         Testing 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis lectu adipiscing adipiscingqaswds.
