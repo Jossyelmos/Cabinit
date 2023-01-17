@@ -130,6 +130,10 @@ img {
   margin-bottom: 2.5rem;
 }
 
+.comp1s {
+  display: none;
+}
+
 .comp3s {
   width: 50px;
   border-bottom: 2px solid black;
@@ -212,10 +216,10 @@ img {
 }
 
 .comp5-container {
+  margin: 0 auto;
   width: 70%;
   position: relative;
   top: 100px;
-  left: 190px;
   padding-bottom: 7rem;
 }
 
@@ -225,7 +229,7 @@ img {
 }
 
 .comp5-content p {
-  width: 300px;
+  
   font-size: 12px;
 }
 
@@ -360,7 +364,7 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 /* Text Styles*/
@@ -753,9 +757,60 @@ table th {
   }
 
   .navbar ul {
+    display: block;
     text-align: center;
     justify-content: center;
   }
+
+  .navbar .btn {
+  font-size: 10px;
+  padding: 0.5rem 1.2rem;
+  margin-top: 10px;
+}
+
+  .mag {
+    display: none;
+  }
+
+  .comp1 h1 {
+    margin-bottom: 2rem;
+  }
+
+  .comp1s {
+  display: block;
+  margin: 2rem 0;
+  text-align: center;
+  width: 50px;
+  border-bottom: 2px solid black;
+}
+
+  .card-content2 {
+  width: 350px;
+  margin: 2rem 0;
+}
+
+.card-content2 p {
+   /* line-height: 1.1; */
+  font-size: 20px;
+}
+
+  .carousel-container {
+  width: 500px;
+  display: block;
+  justify-content: center;
+}
+
+.mid-carousel {
+  width: 500px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+}
+
+.remove {
+  display: none;
+}
 
   .comp2 {
     display: none;
@@ -766,10 +821,19 @@ table th {
   }
 
   .comp5-container {
+    margin: 0 auto;
   width: 40%;
   position: relative;
-  left: 90px;
+  top: 40px;
   padding-bottom: 7rem;
+}
+
+.comp5-content {
+  position: relative;
+  top: -2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
   .comp6-container {

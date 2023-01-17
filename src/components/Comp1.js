@@ -5,7 +5,7 @@ import image1 from '../images/rectangle19.png';
 import image2 from '../images/kitchen-naude.png';
 import image3 from '../images/rectangle20.png';
 import image4 from '../images/rectangle17.png';
-import image5 from '../images/rectangle14.png';
+import image5 from '../images/rectangle19.png';
 import image6 from '../images/black-brick.png';
 import image7 from '../images/rectangle15.png';
 
@@ -95,7 +95,6 @@ const Comp1 = () => {
           </div>
           <div className='carousel-container'>
               <Carousel
-                //   className='carousel'
                   autoFocus={false}
                   width={'80%'}
                   showThumbs={false}
@@ -109,7 +108,6 @@ const Comp1 = () => {
               </Carousel>
               <div className='mid-carousel'>
                 <Carousel
-                    //   className='carousel'
                     autoFocus={false}
                     width={'100%'}
                     showThumbs={false}
@@ -122,7 +120,6 @@ const Comp1 = () => {
                             </div>
                     </Carousel>
                 <Carousel
-                    //   className='carousel'
                     autoFocus={false}
                     width={'100%'}
                     showThumbs={false}
@@ -135,14 +132,13 @@ const Comp1 = () => {
                             </div>
                     </Carousel>
                 <Carousel
-                    //   className='carousel'
                     autoFocus={false}
                     width={'100%'}
                     showThumbs={false}
                     showArrows={false}
                     showIndicators={false}
                     showStatus={false}
-                    
+                    className='remove'
                 >
                             <div>
                                 <img src={image3} alt='img'/>
@@ -150,7 +146,6 @@ const Comp1 = () => {
                     </Carousel>
               </div>
               <Carousel
-                //   className='carousel'
                   autoFocus={false}
                   width={'85%'}
                   showThumbs={false}

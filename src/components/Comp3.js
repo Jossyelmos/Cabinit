@@ -6,6 +6,7 @@ const Comp3 = () => {
   return (
       <div className='comp3-container'>
           <div className='comp3 all-center'>
+              <hr className='comp1s' />
               <div className='grid-2'>
                   <div className='card'>
                       <img src={img1} alt='' style={{ width: '250px' }} />
