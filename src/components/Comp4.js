@@ -52,7 +52,7 @@ const Comp4 = () => {
                                   src={item.image2}
                                   alt=''
                                   className={isHovering === item.id ? '' : 'hidden'}
-                                  style={{ width: '122%', position: 'relative' }}
+                                  style={{ width: '133%', position: 'relative', top: '-15px', left: '-10px' }}
                               />
                               <img
                                   src={item.image1}

@@ -837,11 +837,10 @@ table th {
 
   .comp5-container {
     margin: 0 auto;
-  width: 40%;
-  position: relative;
-  top: 40px;
-  padding-bottom: 7rem;
-}
+    position: relative;
+    top: 40px;
+    padding-bottom: 7rem;
+  }
 
 .comp5-content {
   position: relative;
