@@ -10,15 +10,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
-      <Navbar />
-      <Comp1 />
-      <Comp2 />
-      <Comp3 />
-      <Comp4 />
-      <Comp5 />
-      <Comp6 />
-    </div>
+    <>
+      <div className="container">
+        <Navbar />
+        <Comp1 />
+        <Comp2 />
+        <Comp3 />
+        <Comp4 />
+        <Comp5 />
+        <Comp6 />
+      </div>
+    </>
   );
 }
 

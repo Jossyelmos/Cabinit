@@ -9,7 +9,7 @@ import image from '../images/group12.png';
 
 const Comp6 = () => {
   return (
-    <div className='comp6-container bg-dark'>
+    <div id="contact" className='comp6-container bg-dark'>
         <div className='comp6-content all-center'>
             <h2>NEED NEW CABINETS? <span>LET'S CHAT.</span></h2>
             <p>Contact us today to find out more about what we can do for you. We’ll be more than happy to answer any of your questions.</p>

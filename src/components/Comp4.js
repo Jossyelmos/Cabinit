@@ -36,36 +36,34 @@ const Comp4 = () => {
     
 
   return (
-      <div className='comp4'>
-          <div className='all-center'>
-            <h2>OUR SERVICES</h2>
-              <div className='comp-serv grid-4'>
-                  {cabin.map((item) => {
-                      return (
-                          <div
-                              className='card'
-                              key={item.id}
-                              onMouseEnter={() => setIsHovering(item.id)}
-                              onMouseLeave={() => setIsHovering(-1)}
-                          >
-                              <img
-                                  src={item.image2}
-                                  alt=''
-                                  className={isHovering === item.id ? '' : 'hidden'}
-                                  style={{ width: '133%', position: 'relative', top: '-15px', left: '-10px' }}
-                              />
-                              <img
-                                  src={item.image1}
-                                  alt=''
-                                  className={isHovering === item.id ? 'hidden' : ''}
-                                  style={{ width: '120%', position: 'relative' }}
-                              />
-                        </div>
-                      )
-                  })}
-              </div>
+    <div className='comp4'>
+    <div className='all-center'>
+      <h2>OUR SERVICES</h2>
+      <div className='comp-serv grid-4'>
+        {cabin.map((item) => (
+          <div
+            className='card'
+            key={item.id}
+            onMouseEnter={() => setIsHovering(item.id)}
+            onMouseLeave={() => setIsHovering(-1)}
+          >
+            {/* Hover Image */}
+            <img
+              src={item.image2}
+              alt=''
+              className={`hover-img ${isHovering === item.id ? 'visible' : 'hidden'}`}
+            />
+            {/* Normal Image */}
+            <img
+              src={item.image1}
+              alt=''
+              className={`normal-img ${isHovering === item.id ? 'hidden' : 'visible'}`}
+            />
           </div>
+        ))}
       </div>
+    </div>
+  </div>
   )
 }
 

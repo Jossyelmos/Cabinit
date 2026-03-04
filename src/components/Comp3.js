@@ -29,7 +29,7 @@ const Comp3 = () => {
                       </div>
                   </div>
               </div>
-              <hr className='comp3s' />
+              <hr id="services" className='comp3s' />
               <div className='card-content2'>
                   <p>
                       THE CABINET COMPANY CAN BUILD YOU THE CABINET OF YOUR DREAMS. 

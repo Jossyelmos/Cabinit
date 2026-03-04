@@ -5,7 +5,7 @@ import qoute from '../images/qoute.png';
 
 const Comp2 = () => {
   return (
-    <div className='comp2'>
+    <div id="what-we-do" className='comp2'>
           <img src={qoute} alt='' />
           <div className='comp2-container'>
               <Carousel showStatus={false} showThumbs={false}>

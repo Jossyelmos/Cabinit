@@ -9,16 +9,16 @@ const Navbar = ({ title, icon }) => {
             <img src={logo} alt='img' style={{ width: '150px'}}/>
             <ul>
                 <li>
-                    <a href="/">WHAT WE DO</a>
+                <a href="#what-we-do">WHAT WE DO</a>
                 </li>
                 <li>
-                    <a href="/about">SERVICES</a>
+                <a href="#services">SERVICES</a>
                 </li>
                 <li>
-                    <a href="/about">ABOUT US</a>
+                <a href="#about-us">ABOUT US</a>
                 </li>
                 <li>
-                    <a href="/about" className='btn btn-bright btn-sm'>GET IN TOUCH</a>
+                <a href="#contact" className='btn btn-bright btn-sm'>GET IN TOUCH</a>
                 </li>
             </ul>
         </nav>

@@ -3,7 +3,7 @@ import image from '../images/starred.png'
 
 const Comp5 = () => {
   return (
-      <div className='comp5-container'>
+      <div id="about-us" className='comp5-container'>
           <div className='grid-2'>
               <div className='comp5-content'>
                   <h2>WHERE IT <span>STARTED</span></h2>
