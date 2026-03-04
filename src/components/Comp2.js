@@ -11,7 +11,7 @@ const Comp2 = () => {
               <Carousel showStatus={false} showThumbs={false}>
                 <div className='comp2-div text-left'>
                     <p className="">
-                        Testing 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis lectu adipiscing adipiscingqaswds.
+                        Testing 1 Lorem ipsum dolor sit ametsss, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis lectu adipiscing adipiscingqaswds.
                     </p>
                     <h4>-  Name and Surname</h4>
                 </div>
